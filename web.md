@@ -41,10 +41,15 @@ UDP编程的服务器端一般步骤是：
 UDP编程的客户端一般步骤是：
 
 1、创建一个socket，用函数socket()；
+
 2、设置socket属性，用函数setsockopt();* 可选
+
 3、绑定IP地址、端口等信息到socket上，用函数bind();* 可选
+
 4、设置对方的IP地址和端口等属性;
+
 5、发送数据，用函数sendto();
+
 6、关闭网络连接；
 
 ## HTTP&HTTPs
